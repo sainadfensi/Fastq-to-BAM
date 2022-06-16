@@ -24,7 +24,7 @@
 labSampleID=$1
 
 # Does not like being in run_parallel script
-samblaster=/scratch/er01/apps/samblaster/0.1.24/samblaster
+# samblaster=/scratch/er01/apps/samblaster/0.1.24/samblaster # the module is loaded
 
 \rm -rf ../Dedup_sort/${labSampleID}
 mkdir ../Dedup_sort/${labSampleID}
